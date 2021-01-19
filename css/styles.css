@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    text-align: center;
+}
+
+.navigation {
+    background-color: #192a51;
+    height: 66px;
+}
+
+.main-container {
+    background-color: #f4f4f4;
+    width: 950px;
+    height: 1445px;
+    padding: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 16px;
+    text-align: center;
+}
+
+.media {
+    padding: 0.5rem;
+    margin: 0;
+    height: 500px;
+}
+
+.main-heading {
+    width: 770px;
+    height: 125px;
+    padding: 1rem;
+    margin: 1.5rem;
+}
+
+.headings-style {
+    background-color: #d8d8d8;
+    border-radius: 16px;
+}
+
+.bottom-headers {
+    height: 95px;
+    width: 770px;
+    padding: 1rem;
+    margin: 1.5rem;
+}
+
+.darker-container {
+    background-color: #4b566b;
+    height: 220px;
+    width: 740;
+    color: #f4f4f4;
+    border-radius: 16px;
+}
+
+.ligherer-container {
+    background-color: #b9bdc6;
+    height: 220px;
+    width: 740;
+    color: #4b566b;
+    border-radius: 16px;
+}
+
+.footer-style {
+    background-color: #192a51;
+    height: 590px;
+    padding: 3rem;
+    margin: 0;
+    text-align: center;
+}
+
+.inner-footer-container {
+    position: relative;
+    background-color: #4b566b;
+    height: 220px;
+    width: 740;
+    color: #f4f4f4;
+    border-radius: 16px;
+}
+
+.aligning {
+    text-align: left;
+}
+
+/* images */
+
+.pentagon {}
+
+.portrait {}
