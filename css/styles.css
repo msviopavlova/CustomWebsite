@@ -83,6 +83,45 @@ body {
 
 /* images */
 
-.pentagon {}
+.pentagon {
+    width: 152px;
+    height: 133px;
+    margin: 1rem;
+    position: relative;
+}
 
-.portrait {}
+.portrait-block {
+    text-align: center;
+}
+
+.portrait {
+    width: 219px;
+    height: 227px;
+    margin: 1rem;
+}
+
+/* pentagons */
+
+.js-pentagon {
+    right: 50px;
+    top: 100px;
+}
+
+.css-pentagon {
+    left: 50px;
+    top: 100px;
+}
+
+.html-pentagon {
+    right: 2px;
+}
+
+.bootstrap-pentagon {
+    bottom: 50px;
+    right: 100px;
+}
+
+.jquery-pentagon {
+    bottom: 50px;
+    left: 100px;
+}
