@@ -5,15 +5,19 @@ body {
 
 .navigation {
     background-color: #192a51;
+    height: 66px;
 }
 
 .main-container {
     background-color: #f4f4f4;
+    /* width: 60em; */
+    /* height: 90rem; */ 
     padding: 1rem;
     margin-top: 2rem;
     margin-bottom: 2rem;
     border-radius: 16px;
     text-align: center;
+    position: relative;
 }
 
 .media {
@@ -24,6 +28,8 @@ body {
 
 .main-heading {
     padding: 1rem;
+    
+    
 }
 
 .headings-style {
@@ -33,18 +39,30 @@ body {
 
 .bottom-headers {
     height: 5rem;
+    /* width: 45rem;
+    padding: 1rem; */
+    
 }
 
 .darker-container {
     background-color: #4b566b;
+    /* height: 13rem;
+    width: 45rem; */
     color: #f4f4f4;
     border-radius: 1rem;
 }
 
 .ligherer-container {
     background-color: #b9bdc6;
+    /* height: 13rem;
+    width: 46rem; */
     color: #4b566b;
     border-radius: 1rem;
+}
+
+
+.aligning {
+    text-align: left;
 }
 
 /* images */
@@ -72,9 +90,7 @@ body {
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    
 }
-
 
 .js-pentagon {
     animation-name: animate-java;
@@ -83,28 +99,35 @@ body {
 }
 
 @keyframes animate-java {
-    100% {left:50rem; top:30%}
+    100% {
+        left: 50rem;
+        top: 30%
+    }
 }
-    
+
 .css-pentagon {
     animation-name: animate-css;
     animation-duration: 3s;
     animation-fill-mode: forwards;
-
 }
 
 @keyframes animate-css {
-    100% {left:20rem; top:30%}
+    100% {
+        left: 20rem;
+        top: 30%
+    }
 }
 
 .html-pentagon {
     animation-name: animate-html;
     animation-duration: 3s;
     animation-fill-mode: forwards;
-
 }
-@keyframes animate-html{
-    100% {left:50%; top:10%}
+
+@keyframes animate-html {
+    100% {
+        top: 2rem
+    }
 }
 
 .bootstrap-pentagon {
@@ -112,8 +135,12 @@ body {
     animation-duration: 3s;
     animation-fill-mode: forwards;
 }
-@keyframes animate-bootstrap{
-    100% {left:25rem; top:27rem}
+
+@keyframes animate-bootstrap {
+    100% {
+        left: 25rem;
+        top: 27rem
+    }
 }
 
 .jquery-pentagon {
@@ -121,22 +148,30 @@ body {
     animation-duration: 3s;
     animation-fill-mode: forwards;
 }
-@keyframes animate-jquery{
-    100% {left:45rem; top:27rem}
-/* footer */
 
+@keyframes animate-jquery {
+    100% {
+        left: 45rem;
+        top: 27rem
+    }
+}
+
+/* footer */
 .footer-style {
     background-color: #192a51;
     height: 35rem;
     padding: 3rem;
     margin-left: auto;
     margin-right: auto;
+    
+    
 }
 
 .inner-footer-container {
     background-color: #4b566b;
     height: 13rem;
+    width: 45rem;
     color: #f4f4f4;
     border-radius: 1rem;
-    margin-top: 2rem;
+    
 }
