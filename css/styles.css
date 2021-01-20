@@ -155,7 +155,11 @@ body {
 }
 
 
-@media (max-width:1020px) {
+@media (max-width:1250px) {
+    .firstrow {
+        text-align: center;
+    }
+   
     .portrait {
         width: 169px;
         height: 177px;
@@ -164,32 +168,47 @@ body {
     .pentagon {
         height: 80px;
         width: 80px;
-    }
-    .js-pentagon {
-        animation-name: none;
-        animation-duration: 0s;
-        animation-fill-mode: none;
-    }
-    .css-pentagon {
-        animation-name: none;
-        animation-duration: 0s;
-        animation-fill-mode: none;
-    }
-    .jquery-pentagon {
-        animation-name: none;
-        animation-duration: 0s;
-        animation-fill-mode: none;
+           
+        
     }
     .html-pentagon {
         animation-name: none;
         animation-duration: 0s;
         animation-fill-mode: none;
+        left: 100px;
+        top: 20px;
+    }
+
+    .css-pentagon {
+        animation-name: none;
+        animation-duration: 0s;
+        animation-fill-mode: none;
+        left: 150px;
+        top: 20px;
     }
     .bootstrap-pentagon {
         animation-name: none;
         animation-duration: 0s;
         animation-fill-mode: none;
+        left: 200px;
+        top: 20px;
     }
+    .js-pentagon {
+        animation-name: none;
+        animation-duration: 0s;
+        animation-fill-mode: none;
+        left:250px;
+        top: 20px;
+    }
+  
+    .jquery-pentagon {
+        animation-name: none;
+        animation-duration: 0s;
+        animation-fill-mode: none;
+        left: 300px;
+        top: 20px;
+    }
+           
     
 }
 /* footer */
