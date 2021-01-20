@@ -11,7 +11,7 @@ body {
 .main-container {
     background-color: #f4f4f4;
     /* width: 60em; */
-    /* height: 90rem; */ 
+    /* height: 90rem; */
     padding: 1rem;
     margin-top: 2rem;
     margin-bottom: 2rem;
@@ -28,8 +28,6 @@ body {
 
 .main-heading {
     padding: 1rem;
-    
-    
 }
 
 .headings-style {
@@ -41,7 +39,6 @@ body {
     height: 5rem;
     /* width: 45rem;
     padding: 1rem; */
-    
 }
 
 .darker-container {
@@ -59,7 +56,6 @@ body {
     color: #4b566b;
     border-radius: 1rem;
 }
-
 
 .aligning {
     text-align: left;
@@ -104,6 +100,8 @@ body {
         top: 30%
     }
 }
+
+
 
 .css-pentagon {
     animation-name: animate-css;
@@ -156,15 +154,52 @@ body {
     }
 }
 
+
+@media (max-width:1020px) {
+    .portrait {
+        width: 169px;
+        height: 177px;
+       
+    }
+    .pentagon {
+        height: 80px;
+        width: 80px;
+    }
+    .js-pentagon {
+        animation-name: none;
+        animation-duration: 0s;
+        animation-fill-mode: none;
+    }
+    .css-pentagon {
+        animation-name: none;
+        animation-duration: 0s;
+        animation-fill-mode: none;
+    }
+    .jquery-pentagon {
+        animation-name: none;
+        animation-duration: 0s;
+        animation-fill-mode: none;
+    }
+    .html-pentagon {
+        animation-name: none;
+        animation-duration: 0s;
+        animation-fill-mode: none;
+    }
+    .bootstrap-pentagon {
+        animation-name: none;
+        animation-duration: 0s;
+        animation-fill-mode: none;
+    }
+    
+}
 /* footer */
+
 .footer-style {
     background-color: #192a51;
     height: 35rem;
     padding: 3rem;
     margin-left: auto;
     margin-right: auto;
-    
-    
 }
 
 .inner-footer-container {
@@ -173,5 +208,4 @@ body {
     width: 45rem;
     color: #f4f4f4;
     border-radius: 1rem;
-    
 }
