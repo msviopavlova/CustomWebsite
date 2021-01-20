@@ -5,7 +5,6 @@ body {
 
 .navigation {
     background-color: #192a51;
-  
 }
 
 .main-container {
@@ -25,8 +24,6 @@ body {
 
 .main-heading {
     padding: 1rem;
-    
-    
 }
 
 .headings-style {
@@ -36,8 +33,6 @@ body {
 
 .bottom-headers {
     height: 5rem;
- 
-    
 }
 
 .darker-container {
@@ -52,63 +47,68 @@ body {
     border-radius: 1rem;
 }
 
-
-
 /* images */
+
+.rel {
+    position: relative;
+    height: 30rem;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    
+    
+}
 
 .pentagon {
     width: 10rem;
     height: 9rem;
-    margin: 1rem;
-    position: relative;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+   
 }
 
-.portrait-block {
-    text-align: center;
-}
 
 .portrait {
+    position: absolute;
     width: 219px;
     height: 227px;
-    margin: 1rem;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+   
 }
 
-/* pentagons */
-
 .js-pentagon {
-    right: 50px;
-    top: 100px;
+  
 }
 
 .css-pentagon {
-    left: 50px;
-    top: 100px;
+    
 }
 
 .html-pentagon {
-    right: 2px;
+    
 }
 
 .bootstrap-pentagon {
-    bottom: 50px;
-    right: 100px;
+  
 }
 
 .jquery-pentagon {
-    bottom: 50px;
-    left: 100px;
+ 
 }
 
-
 /* footer */
+
 .footer-style {
     background-color: #192a51;
     height: 35rem;
     padding: 3rem;
     margin-left: auto;
     margin-right: auto;
-    
-    
 }
 
 .inner-footer-container {
@@ -117,5 +117,4 @@ body {
     color: #f4f4f4;
     border-radius: 1rem;
     margin-top: 2rem;
-    
 }
