@@ -88,8 +88,8 @@ body {
 
 .portrait {
     position: absolute;
-    width: 219px;
-    height: 227px;
+    width: 200px;
+    height: 250px;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
@@ -160,9 +160,14 @@ body {
 }
 
 @media (max-width:1250px) {
+    .rel {
+        left: 50%;
+       
+    }
+
     .portrait {
-        width: 169px;
-        height: 177px;
+        width: 190px;
+        height: 240px;
     }
 
     
@@ -175,8 +180,9 @@ body {
         animation-name: none;
         animation-duration: 0s;
         animation-fill-mode: none;
-        left: 50px;
-        top: 200px;
+        top: 100px;
+        left: -120px;
+        
         
         
     }
@@ -184,8 +190,8 @@ body {
         animation-name: none;
         animation-duration: 0s;
         animation-fill-mode: none;
-        left: 100px;
-        top: 100px;
+        top: 50px;
+        left: -50px;
         
         
     }
@@ -193,24 +199,24 @@ body {
         animation-name: none;
         animation-duration: 0s;
         animation-fill-mode: none;
-        left: 200px;
-        top: 50px;
+        top: 0;
+        left: 0px;
        
     }
     .js-pentagon {
         animation-name: none;
         animation-duration: 0s;
         animation-fill-mode: none;
-        left: 300px;
-        top: 100px;
+        top: 50px;
+        left: 50px;
         
     }
     .jquery-pentagon {
         animation-name: none;
         animation-duration: 0s;
         animation-fill-mode: none;
-        left: 350px;
-        top: 200px;
+        top: 100px;
+        left: 120px;
         
     }
 }
