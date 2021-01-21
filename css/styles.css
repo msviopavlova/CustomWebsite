@@ -1,6 +1,7 @@
 body {
     margin: 0;
     text-align: center;
+    font-family: 'fira code';
 }
 
 .navigation {
@@ -10,8 +11,6 @@ body {
 
 .main-container {
     background-color: #f4f4f4;
-    /* width: 60em; */
-    /* height: 90rem; */
     padding: 1rem;
     margin-top: 2rem;
     margin-bottom: 2rem;
@@ -36,9 +35,8 @@ body {
 }
 
 .bottom-headers {
-    height: 5rem;
-    /* width: 45rem;
-    padding: 1rem; */
+    padding: 3rem;
+    text-align: justify;
 }
 
 .darker-container {
@@ -51,14 +49,8 @@ body {
 
 .ligherer-container {
     background-color: #b9bdc6;
-    /* height: 13rem;
-    width: 46rem; */
     color: #4b566b;
     border-radius: 1rem;
-}
-
-.aligning {
-    text-align: left;
 }
 
 /* images */
@@ -100,8 +92,6 @@ body {
         top: 30%
     }
 }
-
-
 
 .css-pentagon {
     animation-name: animate-css;
@@ -154,22 +144,17 @@ body {
     }
 }
 
-
 @media (max-width:1250px) {
     .firstrow {
         text-align: center;
     }
-   
     .portrait {
         width: 169px;
         height: 177px;
-       
     }
     .pentagon {
         height: 80px;
         width: 80px;
-           
-        
     }
     .html-pentagon {
         animation-name: none;
@@ -178,7 +163,6 @@ body {
         left: 100px;
         top: 20px;
     }
-
     .css-pentagon {
         animation-name: none;
         animation-duration: 0s;
@@ -197,10 +181,9 @@ body {
         animation-name: none;
         animation-duration: 0s;
         animation-fill-mode: none;
-        left:250px;
+        left: 250px;
         top: 20px;
     }
-  
     .jquery-pentagon {
         animation-name: none;
         animation-duration: 0s;
@@ -208,14 +191,21 @@ body {
         left: 300px;
         top: 20px;
     }
-           
-    
 }
+
+.thisproject-title {
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.thisproject-p {
+    margin: 2rem 3rem;
+}
+
 /* footer */
 
 .footer-style {
     background-color: #192a51;
-    height: 35rem;
     padding: 3rem;
     margin-left: auto;
     margin-right: auto;
@@ -223,8 +213,24 @@ body {
 
 .inner-footer-container {
     background-color: #4b566b;
-    height: 13rem;
-    width: 45rem;
     color: #f4f4f4;
     border-radius: 1rem;
+    padding: 2rem;
+    text-align: justify;
+    margin: 3rem;
+}
+
+.contact-me {
+    padding: 3rem;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.contacts-p {
+    margin: auto 3rem;
+}
+
+.contact-text {
+    line-height: 2;
+    font-size: 1rem;
 }
