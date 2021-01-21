@@ -27,7 +27,9 @@ body {
 .main-heading {
     padding: 1rem;
 }
+
 /* ira's code */
+
 .main-heading:after {
     top: 0px;
     border-top: 44px solid transparent;
@@ -37,9 +39,9 @@ body {
     position: absolute;
     z-index: 3;
     content: '';
-   }
-   
-   .main-heading:before {
+}
+
+.main-heading:before {
     top: 0px;
     border-top: 44px solid transparent;
     border-bottom: 44px solid transparent;
@@ -48,7 +50,7 @@ body {
     position: absolute;
     z-index: 3;
     content: '';
-   }
+}
 
 .headings-style {
     background-color: #d8d8d8;
@@ -208,24 +210,21 @@ body {
     background-color: #4b566b;
     color: #f4f4f4;
     margin-bottom: 40px;
-    }
-
-#aboutme p {
-    padding:0 20px 35px ;
-    text-align: justify;
-    
 }
 
-.titles{
+#aboutme p {
+    padding: 0 20px 35px;
+    text-align: justify;
+}
+
+.titles {
     padding: 3%;
 }
 
-
 .info-about-me {
-    background-color:#b9bdc6 ;
+    background-color: #b9bdc6;
     margin-bottom: 40px;
 }
-
 
 /* footer */
 
@@ -239,7 +238,10 @@ body {
 .inner-footer-container {
     background-color: #4b566b;
     color: #f4f4f4;
-   
+}
+
+.centify {
+    justify-content: center;
 }
 
 .contact-me-heading {
@@ -251,8 +253,18 @@ body {
     line-height: 2.5;
     font-size: 1rem;
     text-align: justify;
-
 }
+
 .second-column {
-    margin-left: 30px;
+    margin-left:30px;
+    
+}
+@media (max-width:1000px) {
+    .contact-text {
+        text-align: left;
+        
+    }
+    .centify {
+        justify-content: left;
+    }
 }
