@@ -202,6 +202,15 @@ body {
     margin: 2rem 3rem;
 }
 
+@media (max-width:1250px) {
+    
+    .thisproject-p {
+        margin: 20px;
+        padding: 0;
+    }
+
+}
+
 /* footer */
 
 .footer-style {
@@ -233,4 +242,5 @@ body {
 .contact-text {
     line-height: 2;
     font-size: 1rem;
+    margin: 1.5rem;
 }
