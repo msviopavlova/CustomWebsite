@@ -4,10 +4,10 @@ body {
     font-family: 'fira code';
 }
 
-.navigation {
+/* .navigation {
     background-color: #192a51;
     height: 66px;
-}
+} */
 
 .main-container {
     background-color: #f4f4f4;
@@ -16,6 +16,8 @@ body {
     margin-bottom: 2rem;
     text-align: center;
     position: relative;
+    border-radius: 0.5rem;
+    
 }
 
 .media {
