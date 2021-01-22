@@ -1,7 +1,7 @@
 body {
     margin: 0;
     text-align: center;
-    background-color: rgb(213, 221, 235);
+    background-color: rgb(231, 235, 241);
     font-family: 'average sans';
 }
 
@@ -15,21 +15,25 @@ body {
     margin-left: 20px;
 }
 
+.navigation-color {
+    background-color: rgb(96, 137, 212);
+    ;
+}
+
 .main-container {
     background-color: #ffff;
     padding: 1rem;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+    margin-top: 40px;
+    margin-bottom: 50px;
     text-align: center;
     position: relative;
     border-radius: 0.5rem;
-    
 }
+
 @media (max-width:1000px) {
     .main-container {
         margin-bottom: 7%;
     }
-
 }
 
 .media {
@@ -39,10 +43,9 @@ body {
 }
 
 .main-heading {
-    padding: 1rem;
     color: rgb(2, 1, 82);
-
-    
+    margin: 5% auto;
+    padding: 5% 0;
 }
 
 .top-button-styles {
@@ -98,11 +101,10 @@ body {
 } */
 
 .headings-style {
-    background-color: rgb(177, 197, 231); 
+    background-color: rgb(177, 197, 231);
     border-radius: 10px;
     font-family: 'Grand Hotel';
 }
-
 
 /* images */
 
@@ -272,18 +274,17 @@ body {
 /* footer */
 
 .footer-style {
-    background-color: #192a51;
+    background-color: #162f6b;
     padding: 3rem;
     margin-left: auto;
     margin-right: auto;
 }
 
 .inner-footer-container {
-    background-color: #6f7e9b;
+    background-color: #485c83;
     color: #fff;
     border-radius: 10px;
     margin-top: 20px;
-    
 }
 
 .centify {
@@ -293,7 +294,7 @@ body {
 .contact-me-heading {
     text-align: center;
     font-size: 2rem;
-    
+    color: #fff;
 }
 
 .contact-text {
