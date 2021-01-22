@@ -16,13 +16,27 @@
 
     <!-- navbar -->
 
-
-
-
-
-
-
-
+    <nav class="navbar navbar-expand-lg navbar-light ">
+        <div class="container navigation">
+            <a class="navbar-brand" href="">VioPavlova</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse  " id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link navigator-button" href="#home">Home <span
+                                class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link navigator-button" href="#contactme">Contact Me</a>
+                    </li>
+                </ul>
+            </div>
+    </nav>
+    </nav>
+    </div>
 
 
     <section id="home">
@@ -82,7 +96,7 @@
         </div>
     </section>
 
-    <button onclick="backToTop()" id="myBtn" class=" top-button-styles">^</button>
+    <button onclick="backToTop()" id="myBtn" class="hexagon top-button-styles">^</button>
     <!-- Footer -->
 
 
@@ -93,7 +107,7 @@
                 Contact Me
             </div>
             <div class="col-lg-8 inner-footer-container  ">
-                <div class="row centify">
+                <div id="contactme" class="row centify ">
                     <div class="col-3 contact-text">
                         Email: <br>
                         Phone: <br>
@@ -111,13 +125,6 @@
         </div>
 
     </div>
-
-
-
-
-
-
-
 
 
     <script src="javascript/index.js"></script>
