@@ -23,6 +23,13 @@ body {
     text-align: center;
     position: relative;
     border-radius: 0.5rem;
+    
+}
+@media (max-width:1000px) {
+    .main-container {
+        margin-bottom: 7%;
+    }
+
 }
 
 .media {
@@ -34,6 +41,7 @@ body {
 .main-heading {
     padding: 1rem;
     color: rgb(2, 1, 82);
+
     
 }
 
@@ -90,20 +98,11 @@ body {
 } */
 
 .headings-style {
-    background-color: rgb(213, 221, 235);
+    background-color: rgb(177, 197, 231); 
     border-radius: 10px;
     font-family: 'Grand Hotel';
 }
 
-.darker-container {
-    background-color: #a6bef5;
-    color: #f4f4f4;
-}
-
-.ligherer-container {
-    background-color: #c1d3fe;
-    color: #abc4ff;
-}
 
 /* images */
 
@@ -248,8 +247,8 @@ body {
 }
 
 .about-project-style {
-    background-color: #4b566b;
-    color: #f4f4f4;
+    background-color: #3a4e74;
+    color: #968484;
     margin-bottom: 40px;
     border-radius: 10px;
 }
@@ -264,7 +263,7 @@ body {
 }
 
 .info-about-me {
-    background-color: #b9bdc6;
+    background-color: #8595b9;
     margin-bottom: 40px;
     border-radius: 10px;
 }
@@ -279,7 +278,7 @@ body {
 }
 
 .inner-footer-container {
-    background-color: #4b566b;
+    background-color: #6f7e9b;
     color: #f4f4f4;
     border-radius: 10px;
     margin-top: 20px;
